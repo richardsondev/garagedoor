@@ -1,0 +1,4 @@
+tensorflow==2.13.0  # For loading the trained model and making predictions
+numpy               # For numerical operations
+Pillow              # For image handling and preprocessing
+requests            # For fetching images from the provided URL
