@@ -63,7 +63,7 @@ Below is an example configuration:
 
 ```json
 {
-    "stream_url": "http://videoserver.local:8080/video",
+    "stream_url": "http://your-video-server:8080/video",
     "alert_interval": 300,
     "retry_limit": 20,
     "retry_delay": 3,
@@ -71,7 +71,7 @@ Below is an example configuration:
     "min_open_frames": 3,
     "frame_window": 10,
     "max_buffer_size_mb": 2,
-    "smtp_server": "smtpserver.local",
+    "smtp_server": "your-smtp-server",
     "smtp_port": 25,
     "email_from": "server@example.com",
     "email_to": "user1@example.com;user2@example.com",
